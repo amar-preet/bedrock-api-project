@@ -1,14 +1,23 @@
-# Welcome to your CDK TypeScript project
+# AWS Bedrock API
 
-This is a blank project for CDK development with TypeScript.
+This project provides an example of how to call Bedrock FM's 3rd party APIs from AWS. Bedrock FM is a powerful tool for leveraging the capabilities of generative AI models.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+![alt text](bedrock.jpg)
 
-## Useful commands
+## Getting Started
+Follow these steps to build, deploy, and destroy the AWS infrastructure for this project.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+### Build
+To build the project, run the following command:
+`npm run build`
+
+### Deploy
+To deploy the project to AWS, use the AWS Cloud Development Kit (CDK). First, navigate to the project directory and run the following command:
+`cdk deploy`
+
+### Destroy
+If you need to tear down the AWS resources created by this project, use the following command:
+`cdk destroy`
+
+### Usage
+This project demonstrates how to call Bedrock FM's 3rd party APIs from AWS. You can customize the APIs and integrate them into your own applications as needed.
