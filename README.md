@@ -2,11 +2,12 @@
 
 This project provides an example of how to call Bedrock FM's 3rd party APIs from AWS. Bedrock FM is a powerful tool for leveraging the capabilities of generative AI models.
 
-**IMPORTANT:**
-* make sure to request model access on AWS Bedrock before calling the API.
-* update AWS region and [policy](https://github.com/amar-preet/bedrock-api-project/blob/main/lib/bedrock-api-project-stack.ts#L69-L77) as per your account and region you are deploying to 
+## Prerequisites
+* Make sure to request model access on AWS Bedrock before calling the API.
+* Update AWS region and [policy](https://github.com/amar-preet/bedrock-api-project/blob/main/lib/bedrock-api-project-stack.ts#L69-L77) as per your account and region you are deploying to
+* AWS CDK CLI is installed
 
-
+## Solution Architecture
 
 ![alt text](bedrock.jpg)
 
