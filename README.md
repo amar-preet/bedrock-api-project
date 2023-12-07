@@ -4,6 +4,7 @@ This project provides an example of how to call Bedrock FM's 3rd party APIs from
 
 ## Prerequisites
 * Make sure to request model access on AWS Bedrock before calling the API.
+![alt text](model_access.png)
 * Update AWS region and [policy](https://github.com/amar-preet/bedrock-api-project/blob/main/lib/bedrock-api-project-stack.ts#L69-L77) as per your account and region you are deploying to
 * AWS CDK CLI is installed
 
