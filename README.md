@@ -2,6 +2,8 @@
 
 This project provides an example of how to call Bedrock FM's 3rd party APIs from AWS. Bedrock FM is a powerful tool for leveraging the capabilities of generative AI models.
 
+*IMPORTANT - make sure to request model access on AWS Bedrock before calling the API.*
+
 ![alt text](bedrock.jpg)
 
 ## Getting Started
